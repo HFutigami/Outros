@@ -44,6 +44,10 @@ def myapp(page: ft.Page):
         	.page-break {
                 display: block;
                 page-break-before: always;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
         }
         div {
